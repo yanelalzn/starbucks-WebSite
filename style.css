@@ -1,0 +1,338 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    margin-bottom: 3em;
+}
+
+.content{
+    width: 90%;
+    height: 80%;
+}
+
+.contenty{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header-dad{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+.icons-head{
+    display: flex;
+    align-items: center;
+}
+
+figure img{
+    width: 70px;
+    height: 70px;
+    margin: 0 15px 0 0;
+    cursor: pointer;
+}
+
+figure{
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+}
+
+.header-dad ul{
+    display: flex;
+    padding: 0;
+}
+
+.header-dad .menu{
+    display: flex;
+    align-items: center;
+}
+
+.icons-head ul li{
+    margin: 0 20px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.menu p{
+    margin: 0 15px 0 10px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.bx-menu{
+    font-size: 30px;
+    color: #dbdbdb;
+}
+
+.form-control{
+    border: none;
+    width: 200px;
+}
+
+
+/* Logo star */
+
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icono-star{
+    position: relative;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.logo-firts{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-firts p{
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.logo-second{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 22px;
+}
+.logo-second img{
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 7%;
+    right: 49.50%;
+}
+
+.logo-second p{
+    margin: 0 0 0 47px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.logo-third{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-third p{
+    padding: 10px 0 0 16px;
+    color: #bfbfbf;
+    text-decoration: 2px solid underline;
+    cursor: pointer;
+}
+
+
+
+.parraf-text{
+    text-align: right;
+    margin: 0 10vh 0 0;
+}
+
+.parraf-text p:nth-child(-n+2){
+    font-size: 50px;
+    color: #127f5e;
+    font-weight: 700;
+    font-family: 'Geologica', sans-serif;
+    letter-spacing: -2px;
+    line-height: 0;
+}
+
+.parraf-text p:nth-child(3){
+    line-height: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bfbfbf;
+}
+
+.parraf-text p:nth-child(4){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #bfbfbf;
+}
+
+.link{
+    position: relative;
+    cursor: pointer;
+}
+
+.link:after{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #127f5eaf;
+    position: absolute;
+    bottom: -3px;
+    right: 40%;
+    transition: all .4s;
+    will-change: width;
+    width: 22%;
+    right: 0;
+}
+
+
+/* Caja */
+
+.caj-frapp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 6em;
+    margin-bottom: 4em;
+}
+
+.caj-frapp img{
+    width: 70%;
+    height: 70%;
+}
+
+.caj-img{
+    text-align: center;
+    position: relative;
+    top: -80px;
+}
+
+.caj1{
+    width: 17%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #e8e8e8;
+    padding: 2%;
+    margin-bottom: 4em;
+    transition: 1.9s;
+}
+
+.caj1:hover{
+    transform: scale(1.2);
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 8px 20px 7px #b3afaf;
+}
+
+.caj1:hover .arrow{
+    color: white;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    padding: 0;
+}
+
+.total li{
+    display: inline;
+}
+
+.none{
+    display: none;
+}
+
+.caj1 .caj-text{
+    margin-top: -30%;
+    line-height: 5px;
+}
+
+.caj-text p:nth-child(-n+2){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #a9a5a5;
+    font-family: 'Geologica', sans-serif;
+}
+
+.caj-text p:nth-child(n+2){
+    margin-bottom: 18px;
+}
+
+.caj-text p, li{
+    margin: 3px 0;
+    font-size: 12px;
+    color: #b1b1b1;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* hover */
+.caj1:hover .none{
+    display: flex;
+    justify-content: space-between;
+    transition: 3s;
+}
+
+.caj1:hover .flex{
+    display: none;
+    transition: 3s;
+}
+
+.sec-size{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #032D16;
+    font-weight: 800;
+    font-family: 'Geologica';
+}
+
+.caj-text button{
+    text-align: center;
+}
+
+.pad-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-sec{
+    background-color: wheat;
+    color: black;
+    border-radius: 30px;
+    padding: 8px 18px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+ .select-sec{
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    color: white;
+ }
